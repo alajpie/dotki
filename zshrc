@@ -29,6 +29,7 @@ zstyle ':completion:*:ssh:*' hosts off
 alias sdi="sudo dnf install"
 alias sai="sudo apt install"
 alias sd="sudo docker"
+alias sdc="sudo docker-compose"
 alias xs="xsel -b"
 alias cal="cal -mn 2"
 alias ffmpeg="ffmpeg -hide_banner"
