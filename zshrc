@@ -68,5 +68,4 @@ export GOPATH="$HOME/.go"
 export PROMPT="%F{196}%n%f@%F{10}%m%f:%B%F{4}%~%f%b "
 export RPROMPT="%?"
 export EDITOR="nvim"
-eval "$(zoxide init zsh)"
 source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
