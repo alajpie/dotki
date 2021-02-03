@@ -34,7 +34,7 @@ colorscheme vividchalk
 map <C-n> :NERDTreeToggle<CR>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
-map <leader>b :Bufstop<CR>
+map <leader>b :BufstopPreview<CR>
 map <leader>a :BufstopModeFast<CR>
 map <C-tab>   :BufstopBack<CR>
 map <S-tab>   :BufstopForward<CR>
