@@ -37,6 +37,7 @@ alias fd="fdfind"
 alias yarn="yarnpkg"
 alias gg="git log --oneline --graph --all"
 alias aria2t="aria2c --seed-time=0"
+alias bc="bc -lq"
 o() {
 	xdg-open $@ &>/dev/null
 }
