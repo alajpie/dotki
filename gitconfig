@@ -7,3 +7,5 @@
 	pushf = push --force-with-lease
 [fetch]
 	prune = true
+[init]
+	defaultBranch = main
