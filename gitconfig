@@ -9,3 +9,5 @@
 	prune = true
 [init]
 	defaultBranch = main
+[push]
+	default = current
