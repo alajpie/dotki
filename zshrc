@@ -2,7 +2,7 @@
 HISTFILE=~/.histfile
 HISTSIZE=100000
 SAVEHIST=100000
-setopt appendhistory autocd beep nomatch interactive_comments
+setopt appendhistory beep nomatch interactive_comments
 bindkey -e
 bindkey "\e[3~" delete-char
 bindkey "\e[H" beginning-of-line
