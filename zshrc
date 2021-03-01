@@ -36,6 +36,7 @@ alias ffprobe="ffprobe -hide_banner"
 alias fd="fdfind"
 alias yarn="yarnpkg"
 alias gg="git log --oneline --graph --all"
+alias gs="git show-branch"
 alias aria2t="aria2c --seed-time=0"
 alias bc="bc -lq"
 o() {
