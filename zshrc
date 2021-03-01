@@ -39,6 +39,7 @@ alias gg="git log --oneline --graph --all"
 alias gs="git show-branch"
 alias aria2t="aria2c --seed-time=0"
 alias bc="bc -lq"
+alias cp="cp --reflink=auto --sparse=always"
 o() {
 	xdg-open $@ &>/dev/null
 }
