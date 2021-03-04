@@ -41,6 +41,7 @@ alias aria2t="aria2c --seed-time=0"
 alias bc="bc -lq"
 alias cp="cp --reflink=auto --sparse=always"
 alias ..="cd .."
+alias bat="batcat"
 o() {
 	xdg-open $@ &>/dev/null
 }
