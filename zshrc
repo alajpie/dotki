@@ -28,7 +28,6 @@ zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
 zstyle ':completion:*:ssh:*' hosts off
 alias sdi="sudo dnf install"
 alias sai="sudo apt install"
-alias sd="sudo docker"
 alias sdc="sudo docker-compose"
 alias xs="xsel -b"
 alias ffmpeg="ffmpeg -hide_banner"
@@ -42,6 +41,8 @@ alias bc="bc -lq"
 alias cp="cp --reflink=auto --sparse=always"
 alias ..="cd .."
 alias bat="batcat"
+alias cal="ncal -Mb"
+alias rsh="ssh zh1155@zh1155.rsync.net"
 o() {
 	xdg-open $@ &>/dev/null
 }
