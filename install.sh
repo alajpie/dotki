@@ -28,10 +28,6 @@ ln -s $DOTKI/tmux.conf .tmux.conf 2>/dev/null
 
 ln -s $DOTKI/alacritty.yml .alacritty.yml 2>/dev/null
 
-mkdir -p .config/systemd/user
-ln -s $DOTKI/ssh-agent.service .config/systemd/user/ssh-agent.service 2>/dev/null
-systemctl --user enable --now ssh-agent 2>/dev/null
-
 git clone --depth=1 https://github.com/romkatv/gitstatus.git .gitstatus
 
 exec zsh
